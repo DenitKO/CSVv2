@@ -299,7 +299,7 @@ namespace CSV
             lbStatistics.Items.Add($"File: {filename}. Total chanels: {countOfLinesInFile}");
             foreach (var item in firstVariables)
             {
-                lbStatistics.Items.Add($"Chanell: {item}. Count = {variables[item].c}");
+                lbStatistics.Items.Add($"Chanell: {item}. Count = {variables[item].Count}");
             }
         }
 
